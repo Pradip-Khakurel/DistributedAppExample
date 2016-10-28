@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedAppExample.Distr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedAppExample.ReaderService", "DistributedAppExample.ExecutionService\DistributedAppExample.ReaderService.csproj", "{B5A48398-D6B5-4528-88BC-753B05156785}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedAppExample.Shared", "DistributedAppExample.Shared\DistributedAppExample.Shared.csproj", "{812E339E-DDC6-4503-9207-ACC18DB5CE49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedAppExample.Shared.IO", "DistributedAppExample.Shared.IO\DistributedAppExample.Shared.IO.csproj", "{41BFB36D-359D-4A3A-A41F-7F67F6C8FC15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B5A48398-D6B5-4528-88BC-753B05156785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A48398-D6B5-4528-88BC-753B05156785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A48398-D6B5-4528-88BC-753B05156785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812E339E-DDC6-4503-9207-ACC18DB5CE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812E339E-DDC6-4503-9207-ACC18DB5CE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812E339E-DDC6-4503-9207-ACC18DB5CE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812E339E-DDC6-4503-9207-ACC18DB5CE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BFB36D-359D-4A3A-A41F-7F67F6C8FC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BFB36D-359D-4A3A-A41F-7F67F6C8FC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BFB36D-359D-4A3A-A41F-7F67F6C8FC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BFB36D-359D-4A3A-A41F-7F67F6C8FC15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
